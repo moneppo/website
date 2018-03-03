@@ -4,6 +4,7 @@ categories: posts, projects
 title: Imagination Codes
 tags: [concept, itp, education, half baked]
 date-string: DECEMBER 15, 2015
+splash: images/2015-12-15/imcodes-splash.jpg
 ---
 
 Imagination Codes was a series of concepts and experiments around teaching
@@ -32,5 +33,5 @@ poetry module that used color-coded words to build simple algorithms for
 creating sentences and poems. We showed this off at one of the ITP shows and
 had a lot of fun generating surprisingly coherent algorithmic poetry.
 
-![algorthmic poetry booth](images/2015-12-15/imcodes-poetry1.png)
-![algorthmic poetry booth](images/2015-12-15/imcodes-poetry2.png)
+![algorthmic poetry booth](images/2015-12-15/imcodes-poetry1.jpg)
+![algorthmic poetry booth](images/2015-12-15/imcodes-poetry2.jpg)
