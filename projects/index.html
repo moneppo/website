@@ -7,10 +7,7 @@ title: Projects
     <a>{{ page.title }}</a>
 </h1>
 <div id="main" role="main">
-    {% for item in site.categories.projects %}
-    {% unless forloop.last %}
+    {% for item in site.categories.projects %} 
         <a href="{{ site.url }}{{ item.url }}" title="{{ item.title }}">{{ item.title }}   ({{ item.date | date: "%B %d, %Y" }})</a>
-        {% endif %}
-    {% endunless %}
     {% endfor %}
 </div>
