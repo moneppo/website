@@ -1,6 +1,7 @@
 ---
 layout: post
-categories: posts, projects
+categories: [posts, projects]
+project: true
 title: Imagination Codes
 tags: [concept, itp, education, half baked]
 date-string: DECEMBER 15, 2015
