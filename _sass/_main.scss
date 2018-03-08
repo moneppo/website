@@ -253,7 +253,12 @@ header .entry-meta {
 			margin-bottom: 30px;
 			padding: 50px 80px;
 		}
-        
+		
+		.plate {
+			background-color: #fff;
+			outline: solid 10px #fff;
+		}
+
         a { 
             img:hover {
                 opacity: 0.9;
@@ -369,7 +374,22 @@ h1 {
 	}
 
 	@media #{$large} {
-		width: 44vw;
+		width: 43vw;
 		height: 35vw;
+	}
+}
+
+.splash {
+	width: 65%;
+	height: 220px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 6px;
+
+	h1 {
+		color: white;
+		font-size: 3em;
+		text-shadow: 0px 0px 5px #000;
 	}
 }
