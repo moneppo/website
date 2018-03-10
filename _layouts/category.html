@@ -1,0 +1,21 @@
+---
+layout: post-index
+title: Projects
+---
+
+<article>
+    <h1 class="entry-title">
+        <a>{{ page.title }}</a>
+    </h1>
+</article>
+
+<div class="gallery" role="main">
+{% for post in site.categories[page.category] %}
+    <div class="card" style="background-image:url({{ site.url }}/{{ post.splash }});">
+        <a href="{{ post.url }}" title="{{ post.title }}">
+            <h3>{{ post.title }}</h3>
+            <span>({{ post.date | date: "%B %d, %Y" }})</span>
+        </a>
+    </div>
+{% endfor %}
+</div>
